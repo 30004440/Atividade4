@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--  <img src="/images/mar.jpeg" width="100%" height="100%" > -->
+  <title>Noticias sobre o Mar</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://www.markuptag.com/bootstrap/5/css/bootstrap.min.css" />
+</head>
+
+  <header>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <br>
+        <a style="font-size: 15px;" class="navbar-brand" style="float: left;";>OCEAN NEWS</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <br>
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" value="pt" onclick="getArticles()" autocomplete="off">
+        <label style="font-size: 15px;" class="btn btn-outline-primary me-2" for="btnradio2" >Noticias</label>
+        </ul>      
+         <a href="http://localhost:9090" class="BUTTON_QAC">Logout</a>
+      </div>
+    </nav>
+
+  </header>
+  <body>
+    <div id="articles"></div>
+    <div id="articles" class="row row-cols-1 row-cols-md-3 g-4 container-fluid"></div>
+    <div>
+    <h3 style="text-align:center"><br><br><br><br><br><br><br><br><br><br><b>Clique em Noticias para aceder às mesmas</b></h3>
+    <img class="image" id="surf" src="images/panther.gif" width="20%"/>
+  </div>
+  </body>
+ 
+<footer>
+  <style>
+    .footer {
+      position: fixed;
+      left: 100;
+      bottom: 0;
+      width: 100%;
+      background-color: black;
+      color: white;
+      text-align: right;
+    }
+    </style>
+    
+    <div class="footer">
+    <div>
+      <p style="float: right;" display:"inline-block";><img src="/images/ual.png" width="100px" border="1px" ></p>
+      <p style="text-align:center"><b>Universidade Autónoma de Lisboa</b></p>
+      <p style="text-align:center"><b>Desenvolvimento Web</b></p>
+      
+  </div>
+
+    </div>
+
+   
+
+
+</footer>
+
+
+
+
+<script src="js/api.js"></script>
+<script src="js/users.js"></script>
+</html>
